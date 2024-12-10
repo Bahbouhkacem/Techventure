@@ -501,3 +501,27 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+#faq .accordion-button {
+    background-color: var(--light);
+    color: var(--dark);
+    font-weight: 500;
+    border: 1px solid var(--dark);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#faq .accordion-button:hover {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+#faq .accordion-body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#faq .accordion-item {
+    margin-bottom: 15px;
+}
